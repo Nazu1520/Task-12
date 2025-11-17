@@ -1,0 +1,9 @@
+a) select ename, sal from employee where sal >= 2000;
+b) select * from employee where comm is null;
+ 
+c) select ename, sal from employee where sal not between 2500 and 4000;
+ 
+d) select ename, job, sal from employee where mgr is null;
+e) select ename from employee where ename like '__a%';
+ 
+f) select ename from employee where ename like '%t';
